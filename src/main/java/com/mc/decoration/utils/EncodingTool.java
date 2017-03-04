@@ -1,4 +1,4 @@
-package com.mc.ssm.utils;
+package com.mc.decoration.utils;
 
 import java.io.UnsupportedEncodingException;
 

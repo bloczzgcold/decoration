@@ -6,6 +6,7 @@ import org.apache.log4j.Logger;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.servlet.ModelAndView;
 
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
@@ -22,11 +23,10 @@ public class UserController {
     private UserService userService;
 
     @RequestMapping("/showUser")
-    public String showUser(HttpServletRequest request, Model model){
+    public ModelAndView showUser(){
         log.info("查询所有用户信息");
         List<User> userList = userService.getAllUser();
-        model.addAttribute("userList",userList);
-        return "showUser";
+        return new ModelAndView("/pages/user/showUser","userList",userList);
     }
 
     @RequestMapping("/findById")

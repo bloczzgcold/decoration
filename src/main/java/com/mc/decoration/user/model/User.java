@@ -12,9 +12,8 @@ public class User {
     private String userPhone;
     private String userEmail;
     private String userPwd;
-    private String pwdSalt;
     private Date createTime;
-    private Date modifyTime;
+    private Date updateTime;
     private Short isDelete;
 
     public Long getId() {
@@ -57,14 +56,6 @@ public class User {
         this.userPwd = userPwd;
     }
 
-    public String getPwdSalt() {
-        return pwdSalt;
-    }
-
-    public void setPwdSalt(String pwdSalt) {
-        this.pwdSalt = pwdSalt;
-    }
-
     public Date getCreateTime() {
         return createTime;
     }
@@ -73,12 +64,12 @@ public class User {
         this.createTime = createTime;
     }
 
-    public Date getModifyTime() {
-        return modifyTime;
+    public Date getUpdateTime() {
+        return updateTime;
     }
 
-    public void setModifyTime(Date modifyTime) {
-        this.modifyTime = modifyTime;
+    public void setUpdateTime(Date updateTime) {
+        this.updateTime = updateTime;
     }
 
     public Short getIsDelete() {

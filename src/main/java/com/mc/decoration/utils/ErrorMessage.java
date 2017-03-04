@@ -1,4 +1,4 @@
-package com.mc.ssm.utils;
+package com.mc.decoration.utils;
 
 /**
  * Created by zhangzhenguo on 2017/2/15.

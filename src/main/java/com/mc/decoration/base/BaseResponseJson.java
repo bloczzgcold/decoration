@@ -1,4 +1,4 @@
-package com.mc.ssm.base;
+package com.mc.decoration.base;
 
 import com.alibaba.fastjson.JSONObject;
 
