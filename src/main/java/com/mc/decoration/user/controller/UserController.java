@@ -4,12 +4,10 @@ import com.mc.decoration.user.model.User;
 import com.mc.decoration.user.service.UserService;
 import org.apache.log4j.Logger;
 import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
 import javax.annotation.Resource;
-import javax.servlet.http.HttpServletRequest;
 import java.util.List;
 
 /**
@@ -30,8 +28,8 @@ public class UserController {
     }
 
     @RequestMapping("/findById")
-    public String findById(long id){
+    public ModelAndView findById(long id){
         User user = userService.getUserById(id);
-        return "showUserBuId";
+        return new ModelAndView("/pages/user/showUser","userList",user);
     }
 }
