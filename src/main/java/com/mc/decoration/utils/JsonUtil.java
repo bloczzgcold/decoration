@@ -4,6 +4,13 @@ import com.alibaba.fastjson.JSONObject;
 
 public class JsonUtil {
 
+	/**
+	 * 统一输出json格式
+	 * @param flag
+	 * @param url
+	 * @param msg
+	 * @return
+	 */
 	public static JSONObject dealJson(boolean flag, String url, String msg) {
 		JSONObject json = new JSONObject();
 		json.put("flag", flag);
