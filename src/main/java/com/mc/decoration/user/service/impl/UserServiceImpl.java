@@ -1,8 +1,8 @@
-package com.mc.ssm.user.service.impl;
+package com.mc.decoration.user.service.impl;
 
-import com.mc.ssm.user.dao.UserDao;
-import com.mc.ssm.user.model.User;
-import com.mc.ssm.user.service.UserService;
+import com.mc.decoration.user.dao.UserDao;
+import com.mc.decoration.user.model.User;
+import com.mc.decoration.user.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

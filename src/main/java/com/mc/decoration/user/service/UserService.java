@@ -1,7 +1,8 @@
-package com.mc.ssm.user.service;
+package com.mc.decoration.user.service;
 
 
-import com.mc.ssm.user.model.User;
+
+import com.mc.decoration.user.model.User;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package com.mc.ssm.user.model;
+package com.mc.decoration.user.model;
 
 import java.util.Date;
 

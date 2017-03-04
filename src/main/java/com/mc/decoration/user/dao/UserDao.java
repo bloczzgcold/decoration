@@ -1,8 +1,7 @@
-package com.mc.ssm.user.dao;
+package com.mc.decoration.user.dao;
 
-import com.mc.ssm.user.model.User;
+import com.mc.decoration.user.model.User;
 import org.apache.ibatis.annotations.Param;
-import org.springframework.stereotype.Repository;
 
 import java.util.List;
 

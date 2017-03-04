@@ -1,7 +1,7 @@
-package com.mc.ssm.user.controller;
+package com.mc.decoration.user.controller;
 
-import com.mc.ssm.user.model.User;
-import com.mc.ssm.user.service.UserService;
+import com.mc.decoration.user.model.User;
+import com.mc.decoration.user.service.UserService;
 import org.apache.log4j.Logger;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
